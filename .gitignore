@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+.streamlit/secrets.toml
+
+sleepcare.db
+
+.env
+.DS_Store
+Thumbs.db
+models/sleep_quality_model.pkl
