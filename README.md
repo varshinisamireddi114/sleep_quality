@@ -255,8 +255,7 @@ sleep/
 └── train_final_model.py
 ```
 
-> The local `venv/` directory and `sleepcare.db` database are excluded from Git using `.gitignore`.
-
+> The local `venv/` directory, `sleepcare.db` database, and trained `sleep_quality_model.pkl` file are excluded from Git using `.gitignore`. The model file is excluded because of its large size and can be regenerated locally using `train_final_model.py`.
 ---
 
 ## Setup Instructions
